@@ -1,0 +1,23 @@
+name: ron_count
+description: Countdown clock for Ron's graduation!
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+version: 1.0.4
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.3
+  flutter_hooks: ^0.17.0
+  google_fonts: ^2.1.0
+  hooks_riverpod: ^0.14.0+4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.3
+
+flutter:
+  uses-material-design: true
